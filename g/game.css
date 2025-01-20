@@ -8,8 +8,12 @@
   padding-right: calc(50% - 600px);
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .top {
-  height: 800px;
+  height: 710px;
   background: rgb(225, 255, 143);
   background-image: url(img/Desktop.svg);
   background-repeat: no-repeat;
@@ -44,16 +48,22 @@
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background: rgb(32, 32, 39);
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
   padding: 16px 28px 16px 28px;
   width: 247px;
 }
 .top__btn:hover {
   background: #FFFFFF;
+  color: #000000;
+}
+.top__link {
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.top__link:hover {
   color: #000000;
 }
 
@@ -62,6 +72,9 @@
   background-image: url(img/game.svg);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.content__top {
+  margin-bottom: 72px;
 }
 .content__top_title {
   color: rgb(255, 255, 255);
@@ -83,13 +96,20 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.content-box {
-  margin-top: 92px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+.content-top {
+  display: flex;
   gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.content-btm {
+  display: flex;
+  gap: 32px;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 .content__item {
+  max-width: 378px;
   height: 512px;
   grid-column: span 4;
   border-radius: 30px;
@@ -100,7 +120,7 @@
 .content__item_big {
   height: 551px;
 }
-.content__item_text {
+.content__item-text {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   padding: 10px 16px 10px 16px;
@@ -110,8 +130,14 @@
   margin-left: 32px;
   margin-right: 32px;
   max-width: 108px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.content__item_title {
+.content__item-title {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
