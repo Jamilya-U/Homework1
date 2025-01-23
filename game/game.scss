@@ -8,8 +8,12 @@
     padding-right: calc(50% - 600px);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .top {
-    height: 800px;
+    height: 710px;
     background: rgb(225, 255, 143);
     background-image: url(img/Desktop.svg);
     background-repeat: no-repeat;
@@ -41,21 +45,23 @@
         max-width: 769px;
     }
 
-    &__btn {
+    &__link {
         box-sizing: border-box;
         border: 1px solid rgb(32, 32, 39);
         border-radius: 60px;
         background: rgb(32, 32, 39);
+        padding: 16px 28px 16px 28px;
+        width: 247px;
+        text-decoration-line: none;
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 600;
-        text-align: center;
-        padding: 16px 28px 16px 28px;
-        width: 247px;
+        display: flex;
+        justify-content: center;
     }
 
-    &__btn:hover {
+    &__link:hover {
         background: #FFFFFF;
         color: #000000;
     }
@@ -67,7 +73,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
 
-    &__top_title {
+    &__title {
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-size: 64px;
@@ -79,7 +85,7 @@
         margin-bottom: 24px;
     }
 
-    &__top_text {
+    &__text {
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-size: 24px;
@@ -90,14 +96,36 @@
     }
 
     &-box {
-        margin-top: 92px;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
         gap: 32px;
+        margin-top: 72px;
+        flex-wrap: wrap;
+    }
+
+    &-left {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    &-middle {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    &-rights {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     &__item {
-        height: 512px;
+        max-width: 378px;
+        height: 473px;
         grid-column: span 4;
         border-radius: 30px;
         box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
@@ -108,7 +136,11 @@
             height: 551px;
         }
 
-        &_text {
+        &_middle {
+            height: 512px;
+        }
+
+        &-text {
             border-radius: 52.58px;
             background: rgb(247, 247, 247);
             padding: 10px 16px 10px 16px;
@@ -118,9 +150,15 @@
             margin-left: 32px;
             margin-right: 32px;
             max-width: 108px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 110%;
+            letter-spacing: 0px;
+            text-align: left;
         }
 
-        &_title {
+        &-title {
             color: rgb(32, 32, 39);
             font-family: Montserrat;
             font-size: 32px;
