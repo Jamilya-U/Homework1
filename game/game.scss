@@ -45,30 +45,24 @@ html {
         max-width: 769px;
     }
 
-    &__btn {
+    &__link {
         box-sizing: border-box;
         border: 1px solid rgb(32, 32, 39);
         border-radius: 60px;
         background: rgb(32, 32, 39);
         padding: 16px 28px 16px 28px;
         width: 247px;
-    }
-
-    &__btn:hover {
-        background: #FFFFFF;
-        color: #000000;
-    }
-
-    &__link {
         text-decoration-line: none;
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 600;
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     &__link:hover {
+        background: #FFFFFF;
         color: #000000;
     }
 }
