@@ -126,7 +126,6 @@ html {
     &__item {
         max-width: 378px;
         height: 473px;
-        grid-column: span 4;
         border-radius: 30px;
         box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
         background: rgb(255, 255, 255);
@@ -171,5 +170,115 @@ html {
             margin-right: 32px;
         }
 
+    }
+}
+
+.mini {
+    background: rgb(32, 32, 39);
+    background-image: url(img/star3.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-top: 96px;
+        margin-bottom: 24px;
+    }
+
+    &-games {
+        margin-top: 72px;
+        padding-bottom: 144px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__left {
+        flex-direction: row-reverse;
+    }
+
+    &__item {
+        height: 500px;
+        display: flex;
+        border-radius: 30px;
+        box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+        background: rgb(255, 255, 255);
+        text-decoration: none;
+        justify-content: space-between;
+
+        &-img {
+            min-width: 600px;
+        }
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            margin: 48px 48px 48px 48px;
+        }
+
+        &-text {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-top: 24px;
+            padding-bottom: 36px;
+        }
+
+        &-title {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        &-link {
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            padding: 16px 28px 16px 28px;
+            width: 247px;
+            text-decoration-line: none;
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+        }
+
+        &-link:hover {
+            background: #FFFFFF;
+            color: #000000;
+        }
+    }
+}
+
+.ftr {
+    background: rgb(189, 237, 53);
+
+    &__title {
+        padding-top: 61px;
+        padding-bottom: 60px;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
     }
 }
