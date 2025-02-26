@@ -1,0 +1,40 @@
+<svg width="1440.000000" height="800.000000" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip22_2229">
+			<rect id="Frame 2043683034" rx="32.500000" width="246.000000" height="65.000000" transform="translate(120.500000 488.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<filter id="filter_22_2231_dd" x="-543.000000" y="710.000000" width="3220.000000" height="90.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="16.6667"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+		<clipPath id="clip22_2231">
+			<rect id="Frame 2043683043" rx="0.000000" width="3219.000000" height="89.000000" transform="translate(-542.500000 710.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip22_2212">
+			<rect id="Desktop" rx="0.000000" width="1439.000000" height="799.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Desktop" rx="0.000000" width="1439.000000" height="799.000000" transform="translate(0.500000 0.500000)" fill="#E1FF8F" fill-opacity="0"/>
+	<g clip-path="url(#clip22_2212)">
+		<rect id="Rectangle 111002150" width="1440.000000" height="800.000000" fill="#E1FF8F" fill-opacity="0"/>
+		<path id="Vector 4780" d="M1094.79 -10L1171 78.37L854 153" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linecap="round"/>
+		<path id="Vector" d="M1561.68 48.4C1571.11 51.03 1833.52 161.96 1833.52 161.96L1555.11 191.84L1730.99 417.66L1483.04 263.41L1457.77 524.85L1387.88 249.53L1154.93 380.49L1315.41 188.26L1030.63 175.28L1298.3 95.02L1099.4 -134.05L1379.04 -2.5L1443.03 -256.31L1471.77 -1.96L1726.48 -177.4L1561.68 48.4Z" fill="#BCEC30" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M1833.52 161.96L1555.11 191.84L1730.99 417.66L1483.04 263.41L1457.77 524.85L1387.88 249.53L1154.93 380.49L1315.41 188.26L1030.63 175.28L1298.3 95.02L1099.4 -134.05L1379.04 -2.5L1443.03 -256.31L1471.77 -1.96L1726.48 -177.4L1561.68 48.4C1571.11 51.03 1833.52 161.96 1833.52 161.96Z" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<path id="Vector 4781" d="M1085.07 254L1209 254L1067 433" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linecap="round"/>
+		<path id="Vector 4782" d="M1225 458.04L1338.76 379L1444.88 797" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linecap="round"/>
+		<path id="Vector 4788" d="M1303.16 468L1247 526.76L1327 594L1303.16 468Z" fill="#BCEC30" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector 4788" d="M1303.16 468L1327 594L1247 526.76L1303.16 468Z" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<path id="Vector 4791" d="M1345 663L1379 787" stroke="#202027" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linecap="round"/>
+		<path id="Star 2" d="M91.5 94L83.8 114.8L63 122.5L83.8 130.19L91.5 151L99.19 130.19L120 122.5L99.19 114.8L91.5 94Z" fill="#BCEC30" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 2" d="M83.8 114.8L63 122.5L83.8 130.19L91.5 151L99.19 130.19L120 122.5L99.19 114.8L91.5 94L83.8 114.8ZM91.5 96.88L84.58 115.58L65.88 122.5L84.58 129.41L91.5 148.11L98.41 129.41L117.11 122.5L98.41 115.58L91.5 96.88Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 5" d="M966.5 538L961.5 551.5L948 556.5L961.5 561.49L966.5 575L971.49 561.49L985 556.5L971.49 551.5L966.5 538Z" fill="#BCEC30" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 5" d="M961.5 551.5L948 556.5L961.5 561.49L966.5 575L971.49 561.49L985 556.5L971.49 551.5L966.5 538L961.5 551.5ZM966.5 540.88L962.28 552.28L950.88 556.5L962.28 560.71L966.5 572.11L970.71 560.71L982.11 556.5L970.71 552.28L966.5 540.88Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 3" d="M168.77 81.77L156 86.5L168.77 91.22L173.5 104L178.22 91.22L191 86.5L178.22 81.77L173.5 69L168.77 81.77ZM173.5 71.88L169.55 82.55L158.88 86.5L169.55 90.44L173.5 101.11L177.44 90.44L188.11 86.5L177.44 82.55L173.5 71.88Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Star 4" d="M1043.29 598.29L1013 609.5L1043.29 620.7L1054.5 651L1065.71 620.7L1096 609.5L1065.71 598.29L1054.5 568L1043.29 598.29ZM1054.5 570.88L1044.06 599.06L1015.88 609.5L1044.06 619.93L1054.5 648.11L1064.93 619.93L1093.12 609.5L1064.93 599.06L1054.5 570.88Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
