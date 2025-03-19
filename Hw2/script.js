@@ -23,11 +23,16 @@ num++;
 num--;
 age = prompt('Сколько вам лет?');
 alert(age);
-name = "Брэнда";
-age = 20;
-isAdmin = age>10;
-user = name + age + isAdmin;
-alert(user);
+//Задание 9
+const user = {
+    name: 'Брэнда',
+    age: 20,
+    isAdmin: true,
+};
+alert(user.name);
+alert(user.age);
+alert(user.isAdmin);
+//Задание 10
 name = prompt('Ваше имя');
 alert(`Привет! ${name}`);
 
