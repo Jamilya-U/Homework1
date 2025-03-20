@@ -16,41 +16,17 @@ alert(Number(a) + Number(b));
 //задани 5
 let monthNumber = 12;
 switch (monthNumber) {
-    case 1:
+    case (monthNumber >= 1 && monthNumber <= 2) || monthNumber === 12:
         console.log('зима');
         break;
-    case 2:
-        console.log('зима');
-        break;
-    case 3:
+    case (monthNumber <= 3 && monthNumber >= 5):
         console.log('весна');
         break;
-    case 4:
-        console.log('весна');
-        break;
-    case 5:
-        console.log('весна');
-        break;
-    case 6:
+    case (monthNumber <= 6 && monthNumber >= 8):
         console.log('лето');
         break;
-    case 7:
-        console.log('лето');
-        break;
-    case 8:
-        console.log('лето');
-        break;
-    case 9:
+    case (monthNumber <= 9 && monthNumber >= 11):
         console.log('осень');
-        break;
-    case 10:
-        console.log('осень');
-        break;
-    case 11:
-        console.log('осень');
-        break;
-    case 12:
-        console.log('зима');
         break;
     default:
         monthNumber > 12;
