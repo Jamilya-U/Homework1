@@ -69,7 +69,7 @@ for (let key in book) {
     console.log(`${key} - ${book[key]}`)
 }
 //задиние 4
-minnamber = [22, 35, 15, 100, 105, 60, 70, 19   , 45, 88]
+minnamber = [22, 35, 15, 100, 105, 60, 70, 19, 45, 88]
 min=minnamber[0];
 for (let i in minnamber) {
     if (min>minnamber[i]) {
